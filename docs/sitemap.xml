@@ -2,29 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://buleshit.github.io/gaobiao/categories/</loc>
+    <lastmod>2021-09-17T01:19:33+08:00</lastmod>
+  </url><url>
+    <loc>https://buleshit.github.io/gaobiao/categories/essay/</loc>
+    <lastmod>2021-09-17T01:19:33+08:00</lastmod>
+  </url><url>
     <loc>https://buleshit.github.io/gaobiao/post/</loc>
-    <lastmod>2021-09-16T00:29:48+08:00</lastmod>
+    <lastmod>2021-09-17T01:19:33+08:00</lastmod>
+  </url><url>
+    <loc>https://buleshit.github.io/gaobiao/post/%E4%BD%93%E6%A3%80/</loc>
+    <lastmod>2021-09-17T01:19:33+08:00</lastmod>
+  </url><url>
+    <loc>https://buleshit.github.io/gaobiao/</loc>
+    <lastmod>2021-09-17T01:19:33+08:00</lastmod>
   </url><url>
     <loc>https://buleshit.github.io/gaobiao/post/%E5%8D%9A%E5%AE%A2%E8%BF%81%E7%A7%BB%E5%88%B0hugo/</loc>
     <lastmod>2021-09-16T00:29:48+08:00</lastmod>
   </url><url>
-    <loc>https://buleshit.github.io/gaobiao/</loc>
-    <lastmod>2021-09-16T00:29:48+08:00</lastmod>
-  </url><url>
-    <loc>https://buleshit.github.io/gaobiao/categories/</loc>
-    <lastmod>2021-09-15T01:19:33+08:00</lastmod>
-  </url><url>
-    <loc>https://buleshit.github.io/gaobiao/categories/essay/</loc>
-    <lastmod>2021-09-15T01:19:33+08:00</lastmod>
-  </url><url>
-    <loc>https://buleshit.github.io/gaobiao/post/%E4%BD%93%E6%A3%80/</loc>
-    <lastmod>2021-09-15T01:19:33+08:00</lastmod>
-  </url><url>
     <loc>https://buleshit.github.io/gaobiao/post/%E4%B8%80%E5%9C%BA%E6%9A%B4%E9%9B%A820210828/</loc>
     <lastmod>2021-08-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://buleshit.github.io/gaobiao/post/%E7%9F%A5%E8%AF%86%E8%BF%98%E5%80%BC%E9%92%B1%E5%90%97/</loc>
-    <lastmod>2021-08-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://buleshit.github.io/gaobiao/categories/recollect/</loc>
     <lastmod>2021-08-19T00:00:00+00:00</lastmod>
