@@ -1,0 +1,514 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    
+
+    <title>项目已死 | 箭上有毒</title>
+    <meta property="og:title" content="项目已死 - 箭上有毒">
+    <meta property="og:type" content="article">
+        
+    <meta property="article:published_time" content='2021-07-24T00:00:00&#43;08:00'>
+        
+        
+    <meta property="article:modified_time" content='2021-07-24T00:00:00&#43;08:00'>
+        
+    <meta name="Keywords" content="博客,项目管理,python,箭上有毒,公众号,育儿,心理学">
+    <meta name="description" content="项目已死">
+        
+    <meta name="author" content="箭上有毒">
+    <meta property="og:url" content="https://buleshit.github.io/gaobiao/post/%E6%B8%AF%E8%82%A1%E6%89%93%E6%96%B0/">
+    <link rel="shortcut icon" href='/gaobiao/favicon.ico'  type="image/x-icon">
+
+    <link rel="stylesheet" href='/gaobiao/css/normalize.css'>
+    <link rel="stylesheet" href='/gaobiao/css/style.css'>
+    <script type="text/javascript" src="//cdn.bootcdn.net/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    
+    
+    
+    
+    
+    
+        <link rel="stylesheet" href='/gaobiao/css/douban.css'>
+    
+        <link rel="stylesheet" href='/gaobiao/css/other.css'>
+    
+</head>
+
+
+<body>
+    <header id="header" class="clearfix">
+    <div class="container">
+        <div class="col-group">
+            <div class="site-name ">
+                
+                    <a id="logo" href="https://buleshit.github.io/gaobiao/">
+                        箭上有毒
+                    </a>
+                
+                <p class="description">朝露昙花，咫尺天涯。人道是黄河十曲，毕竟东流去。</p>
+            </div>
+            <div>
+                <nav id="nav-menu" class="clearfix">
+                    <a class="current" href="https://buleshit.github.io/gaobiao/">首页</a>
+                    
+                    <a  href="https://buleshit.github.io/gaobiao/books/" title="读书">读书</a>
+                    
+                    <a  href="https://buleshit.github.io/gaobiao/archives/" title="归档">归档</a>
+                    
+                    <a  href="https://buleshit.github.io/gaobiao/about/" title="关于">关于</a>
+                    
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>
+
+    <div id="body">
+        <div class="container">
+            <div class="col-group">
+
+                <div class="col-8" id="main">
+                    
+<div class="res-cons">
+    <style type="text/css">
+    .post-toc {
+        position: fixed;
+        width: 200px;
+        margin-left: -210px;
+        padding: 5px 10px;
+        font-family: Athelas, STHeiti, Microsoft Yahei, serif;
+        font-size: 12px;
+        border: 1px solid rgba(0, 0, 0, .07);
+        border-radius: 5px;
+        background-color: rgba(255, 255, 255, 0.98);
+        background-clip: padding-box;
+        -webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, .125);
+        box-shadow: 1px 1px 2px rgba(0, 0, 0, .125);
+        word-wrap: break-word;
+        white-space: nowrap;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        z-index: 999;
+        cursor: pointer;
+        max-height: 70%;
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+
+    .post-toc .post-toc-title {
+        width: 100%;
+        margin: 0 auto;
+        font-size: 20px;
+        font-weight: 400;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .post-toc .post-toc-content {
+        font-size: 15px;
+    }
+
+    .post-toc .post-toc-content>nav>ul {
+        margin: 10px 0;
+    }
+
+    .post-toc .post-toc-content ul {
+        padding-left: 20px;
+        list-style: square;
+        margin: 0.5em;
+        line-height: 1.8em;
+    }
+
+    .post-toc .post-toc-content ul ul {
+        padding-left: 15px;
+        display: none;
+    }
+
+    @media print,
+    screen and (max-width:1057px) {
+        .post-toc {
+            display: none;
+        }
+    }
+</style>
+<div class="post-toc" style="position: absolute; top: 188px;">
+    <h2 class="post-toc-title">文章目录</h2>
+    <div class="post-toc-content">
+        <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+    </div>
+</div>
+<script type="text/javascript">
+    $(document).ready(function () {
+        var postToc = $(".post-toc");
+        if (postToc.length) {
+            var leftPos = $("#main").offset().left;
+            if(leftPos<220){
+                postToc.css({"width":leftPos-10,"margin-left":(0-leftPos)})
+            }
+
+            var t = postToc.offset().top - 20,
+                a = {
+                    start: {
+                        position: "absolute",
+                        top: t
+                    },
+                    process: {
+                        position: "fixed",
+                        top: 20
+                    },
+                };
+            $(window).scroll(function () {
+                var e = $(window).scrollTop();
+                e < t ? postToc.css(a.start) : postToc.css(a.process)
+            })
+        }
+    })
+</script>
+    <article class="post">
+        <header>
+            <h1 class="post-title">项目已死</h1>
+        </header>
+        <date class="post-meta meta-date">
+            2021年7月24日
+        </date>
+        
+        <div class="post-meta">
+            <span>|</span>
+            
+            <span class="meta-category"><a href='/gaobiao/categories/essay'>essay</a></span>
+            
+        </div>
+        
+        
+        <div class="post-meta">
+            <span id="busuanzi_container_page_pv">|<span id="busuanzi_value_page_pv"></span><span>
+                    阅读</span></span>
+        </div>
+        
+        
+        <div class="post-content">
+            <p>人活三十多，才领悟到有钱才有自由（观点和经历有关，不喜勿喷）。</p>
+<p>考虑到孩子读书接送，以及避免和老人过早的住在一起等问题，老婆决定先辞职一段时间。以目前的收入和积蓄，维持个一年半载不是问题。但是，时间久了总归是个。一方面是经济的压力，另一方面是其他问题（也是经济引起的）。所以，从去年年底到现在，我一直在留意各种小项目，觉得合适的也会去搏一搏。是时候总结一下这些失败的经历了，也许这些才是对自己最宝贵的输出了。以下是泣血长文：</p>
+<h5 id="港股打新">港股打新</h5>
+<p>理财这方面是一直关注的，但是因为工作时间的原因，一般买基金偏多。去年开始学习可转债，倒是还不错。然后看着港股打新收益不错，而且开户各种活动，就跟着大家学习港股打新。
+新办了建设银行卡，准备了2万块钱从建行转至SIB，再转至富途。最后发现中间扣除的手续费很高，基本上就是开户活动福利的数值。
+然后马上参与，第一个中的是环联连讯，第二个是京东物流，这两个暗盘卖出，小赚。
+紧接着，中了百度集团。大跌，继续持有，持续跌。因为申购其他股票，钱不够，卖出，结果大涨，卖飞了。
+继续学习吧，玩还是可以玩的。毕竟如果行情不好，筛掉一批人之后，对剩下的人总是好事。</p>
+<p>项目所得：
+1、 不了解清楚不要盲目参与。
+2、我一个对股票都不了解的人，去参与什么港股。而且就算挣了，钱怎么回来也是一个问题。</p>
+<h5 id="外卖cps">外卖cps</h5>
+<p>这个项目开始确实可以做的，应该有3-4个月的生命周期。因为到后面，由于美团这些平台频繁的更改规整，以及各类小平台的崛起，导致个人做得收益下降了很多。
+这是外因，其实和我没啥关系。我纯粹是因为自己动作太慢，时间都花在自己研究注册了一个工作室，然后用工作室去开了一个企业公众号。其实这个项目应该花时间的地方适合在推广，所以也能看出推广是个人比较薄弱的地方。还暴露出一个致命的问题，就是人总是在挑自己愿意做、简单做的事情。稍微有点技术的，就疯狂尝试用技术去解决问题（程序员炒股总想到量化交易）。
+项目所得：
+1、 对公众号的操作更熟练了。
+2、 对推广的方式更了解了。
+3、 互联网上最大的风险就是“时间”。减少隐形的时间成本，也能决定一个项目的成败。
+4、老婆每天中午吃什么我知道了、、、</p>
+<h5 id="tiktok视频搬运">tiktok视频搬运</h5>
+<p>这个项目是死于入场晚，本身就是作为韭菜被收割的。今年2-3月份，在选择生财还是tk的时候，选择了tk这把镰刀。
+视频搬运的收入来源于部分地区的基金投放。没有考虑到视频搬运这一行原本就有大批量的专业人在玩。人家更专业，玩法更精通。我还在大学的时候，那时候网络相对自由。就已经存在国内视频和youtobe互搬了。
+最后按照培训的的思路去做，先做宠物号，发现泛滥了。再做电影号，发现无法提现了。紧接着大家转战英国地区。紧接着转战ins了。</p>
+<p>项目所得：
+1、 入场前还是得充分考虑。不能被一席话术就吸引了。
+2、为了适应欧美时间，熬夜成了习惯。
+3、决定做了之后，要用的手机是分批购买的，耽误了不少时间。
+4、开拓了思路，美金如果能赚，加上汇率会很香</p>
+<h5 id="团大师拼团">团大师拼团</h5>
+<p>这个项目是充分考虑了的，明确是一个资金盘，早入早出就可以。立马用自己的公众号和知乎上写了几篇软文。
+通过公众号有几十个人加微信群，但是转化却特别低。一个原因是很多人都是已经注册了解，才搜索加群的。第一个原因是自己不忍心用欺骗的话术去引导大家，尽量给大家介绍项目背景和自己的实战情况，要玩的就玩。如果用我链接注册并投入成本的人，我愿意拿出一部分收益来回馈大家。可能是因为我将风险介绍得越详细，大家越谨慎。哈哈，怪不得别人的推广只写利益不写风险。
+知乎上因为第一次的文章违规，这一次写得特别小心。但是没有考虑到人性。知乎的文章由于竞争对手的举报，删掉了。公众号倒是引流了几十个人到微信群，也不知道被群里谁给举报了，导致公众号都被永久封闭了。
+还有更过分的，也是始料未及的。很多人在群里发广告、发自己的邀请链接。看样子，在赚钱这方面的人，已经利益至上，不讲武德。
+目前自己还在玩，再学习一下大佬是怎么推广的。</p>
+<p>项目所得：
+1、 挣钱不要迷了心眼。
+2、 公众号真的是一个很容易被举报封号的东西。
+3、抱团的收益要大于个人单干。</p>
+<h5 id="知乎好物">知乎好物</h5>
+<p>这个项目死于未开始，因为自己的账号才3级。4级才能有知乎好物的权益。
+怎么死的呢，是因为三月份写tiktok新手操作文章的时候被举报，导致文章被删，有了违规记录。知乎好物还有一个要求就是90天内没有违规记录。7月份刚刚复活，又写了一篇团大师的操作记录，又被举报，导致违规。所以是死于自己对知乎的规则和竞争对手了解不够。因为这些都是竞争对手举报的。
+哭笑不得之余，也有所得。知乎举报是可以获得盐值的，这就是一个绝佳的途径。</p>
+
+        </div>
+
+        
+<div class="post-archive">
+    <ul class="post-copyright">
+        <li><strong>原文作者：</strong><a rel="author" href="https://buleshit.github.io/gaobiao/">箭上有毒</a></li>
+        <li style="word-break:break-all"><strong>原文链接：</strong><a href="https://buleshit.github.io/gaobiao/post/%E6%B8%AF%E8%82%A1%E6%89%93%E6%96%B0/">https://buleshit.github.io/gaobiao/post/%E6%B8%AF%E8%82%A1%E6%89%93%E6%96%B0/</a></li>
+        <li><strong>版权声明：</strong>本作品采用<a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/">知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议</a>进行许可，非商业转载请注明出处（作者，原文链接），商业转载请联系作者获得授权。</li>
+    </ul>
+</div>
+<br/>
+
+
+
+        
+
+<div class="post-archive">
+    <h2>See Also</h2>
+    <ul class="listing">
+        
+        <li><a href="/gaobiao/post/%E6%8E%A9%E7%9B%96%E6%80%9D%E6%83%B3%E7%9A%84%E6%87%92%E6%83%B0/">思想的懒惰</a></li>
+        
+        <li><a href="/gaobiao/post/%E5%8F%AF%E5%BF%8D%E5%8F%97%E7%9A%84%E7%AD%89%E5%BE%85%E6%97%B6%E9%97%B4/">等待时间的忍受度</a></li>
+        
+        <li><a href="/gaobiao/post/%E9%9C%80%E8%A6%81%E4%B8%80%E4%B8%AA%E7%89%B9%E6%AE%8A%E7%9A%84%E5%81%87/">需要一个特殊假</a></li>
+        
+        <li><a href="/gaobiao/post/%E4%B8%A4%E4%BB%B6%E5%B0%8F%E4%BA%8B/">两件小事</a></li>
+        
+        <li><a href="/gaobiao/post/%E8%B7%AF%E8%BE%B9%E7%9A%84%E5%B0%8F%E5%BA%97/">路边的小店</a></li>
+        
+    </ul>
+</div>
+
+
+        <div class="post-meta meta-tags">
+            
+            <ul class="clearfix">
+                
+                <li><a href='/gaobiao/tags/%E9%A1%B9%E7%9B%AE%E5%B7%B2%E6%AD%BB'>项目已死</a></li>
+                
+                <li><a href='/gaobiao/tags/%E6%B3%A3%E8%A1%80%E9%95%BF%E6%96%87'>泣血长文</a></li>
+                
+            </ul>
+            
+        </div>
+    </article>
+    
+    <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "yourdiscussshortname" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+    
+    
+    <div class="post bg-white">
+      <script src="https://utteranc.es/client.js"
+            repo= "your github repo"
+            issue-term="pathname"
+            theme="github-light"
+            crossorigin="anonymous"
+            async>
+      </script>
+    </div>
+    
+</div>
+
+                    <footer id="footer">
+    <div>
+        &copy; 2021 <a href="https://buleshit.github.io/gaobiao/">箭上有毒 By 箭上有毒</a>
+        
+    </div>
+    <br />
+    <div>
+        <div class="github-badge">
+            <a href="https://gohugo.io/" target="_black" rel="nofollow"><span class="badge-subject">Powered by</span><span class="badge-value bg-blue">Hugo</span></a>
+        </div>
+        <div class="github-badge">
+            <a href="https://www.flysnow.org/" target="_black"><span class="badge-subject">Design by</span><span class="badge-value bg-brightgreen">飞雪无情</span></a>
+        </div>
+        <div class="github-badge">
+            <a href="https://github.com/flysnow-org/maupassant-hugo" target="_black"><span class="badge-subject">Theme</span><span class="badge-value bg-yellowgreen">Maupassant</span></a>
+        </div>
+    </div>
+</footer>
+
+
+    
+    <script type="text/javascript">
+        window.MathJax = {
+            tex2jax: {
+                inlineMath: [['$', '$']],
+                processEscapes: true
+                }
+            };
+    </script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
+
+<a id="rocket" href="#top"></a>
+<script type="text/javascript" src='/gaobiao/js/totop.js?v=0.0.0' async=""></script>
+
+
+
+    <script type="text/javascript" src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" async></script>
+
+
+
+
+    <script src='/gaobiao/js/douban.js'></script>
+
+                </div>
+
+                <div id="secondary">
+    <section class="widget">
+        <form id="search" action='https://buleshit.github.io/gaobiao/search/' method="get" accept-charset="utf-8" target="_blank" _lpchecked="1">
+      
+      <input type="text" name="q" maxlength="20" placeholder="Search">
+      <input type="hidden" name="sitesearch" value="https://buleshit.github.io/gaobiao/">
+      <button type="submit" class="submit icon-search"></button>
+</form>
+    </section>
+    
+    <section class="widget">
+        <h3 class="widget-title">最近文章</h3>
+<ul class="widget-list">
+    
+    <li>
+        <a href="https://buleshit.github.io/gaobiao/post/%E5%8D%9A%E5%AE%A2%E8%BF%81%E7%A7%BB%E5%88%B0hugo/" title="博客迁移到hugo">博客迁移到hugo</a>
+    </li>
+    
+    <li>
+        <a href="https://buleshit.github.io/gaobiao/post/%E4%BD%93%E6%A3%80/" title="体检">体检</a>
+    </li>
+    
+    <li>
+        <a href="https://buleshit.github.io/gaobiao/post/%E4%B8%80%E5%9C%BA%E6%9A%B4%E9%9B%A820210828/" title="一场暴雨">一场暴雨</a>
+    </li>
+    
+    <li>
+        <a href="https://buleshit.github.io/gaobiao/post/%E7%9F%A5%E8%AF%86%E8%BF%98%E5%80%BC%E9%92%B1%E5%90%97/" title="知识还值钱吗">知识还值钱吗</a>
+    </li>
+    
+    <li>
+        <a href="https://buleshit.github.io/gaobiao/post/%E5%9F%8B%E5%9C%9F%E7%81%B0/" title="埋土灰">埋土灰</a>
+    </li>
+    
+    <li>
+        <a href="https://buleshit.github.io/gaobiao/post/%E4%B8%A4%E4%B8%AA%E5%B0%8F%E5%A5%B3%E5%AD%A9/" title="两个小女孩">两个小女孩</a>
+    </li>
+    
+    <li>
+        <a href="https://buleshit.github.io/gaobiao/post/%E6%B8%AF%E8%82%A1%E6%89%93%E6%96%B0/" title="项目已死">项目已死</a>
+    </li>
+    
+    <li>
+        <a href="https://buleshit.github.io/gaobiao/post/%E6%8E%A9%E7%9B%96%E6%80%9D%E6%83%B3%E7%9A%84%E6%87%92%E6%83%B0/" title="思想的懒惰">思想的懒惰</a>
+    </li>
+    
+    <li>
+        <a href="https://buleshit.github.io/gaobiao/post/%E5%8F%AF%E5%BF%8D%E5%8F%97%E7%9A%84%E7%AD%89%E5%BE%85%E6%97%B6%E9%97%B4/" title="等待时间的忍受度">等待时间的忍受度</a>
+    </li>
+    
+    <li>
+        <a href="https://buleshit.github.io/gaobiao/post/%E9%9C%80%E8%A6%81%E4%B8%80%E4%B8%AA%E7%89%B9%E6%AE%8A%E7%9A%84%E5%81%87/" title="需要一个特殊假">需要一个特殊假</a>
+    </li>
+    
+</ul>
+    </section>
+
+    
+<section class="widget">
+    <h3 class="widget-title" style="color:red">福利派送</h3>
+    <ul class="widget-list">
+        
+        <li>
+            <a href="https://www.aliyun.com/minisite/goods?userCode=jdg9oj97&amp;share_source=copy_link" title="【2019双12】ALL IN CLoud 低至1折" target="_blank" style="color:red">
+                
+                    <img src="https://img.alicdn.com/tfs/TB1_rYHo7P2gK0jSZPxXXacQpXa-690-388.jpg">
+                
+            </a>
+        </li>
+        
+        <li>
+            <a href="https://www.processon.com/i/5f7319425653bb06efe742f3" title="ProcessOn在线协作画图" target="_blank" style="color:red">
+                
+                    ProcessOn在线协作画图
+                
+            </a>
+        </li>
+        
+    </ul>
+</section>
+
+
+    <section class="widget">
+        <h3 class="widget-title"><a href='/gaobiao/categories/'>分类</a></h3>
+<ul class="widget-list">
+    
+    <li><a href="https://buleshit.github.io/gaobiao/categories/books/">books (7)</a></li>
+    
+    <li><a href="https://buleshit.github.io/gaobiao/categories/essay/">essay (45)</a></li>
+    
+    <li><a href="https://buleshit.github.io/gaobiao/categories/recollect/">recollect (3)</a></li>
+    
+</ul>
+    </section>
+
+    <section class="widget">
+        <h3 class="widget-title"><a href='/gaobiao/tags/'>标签</a></h3>
+<div class="tagcloud">
+    
+</div>
+    </section>
+
+    
+<section class="widget">
+    <h3 class="widget-title">友情链接</h3>
+    <ul class="widget-list">
+        
+        <li>
+            <a target="_blank" href="https://www.zhihu.com/people/buleshit" title="知乎">知乎</a>
+        </li>
+        
+        <li>
+            <a target="_blank" href="https://www.bilimoe.com/" title="哔哩萌">哔哩萌</a>
+        </li>
+        
+        <li>
+            <a target="_blank" href="https://www.skyue.com/" title="SKYue">SKYue</a>
+        </li>
+        
+        <li>
+            <a target="_blank" href="https://www.wys.me/" title="WYS">WYS</a>
+        </li>
+        
+    </ul>
+</section>
+
+
+    <section class="widget">
+        <h3 class="widget-title">其它</h3>
+        <ul class="widget-list">
+            <li><a href="https://buleshit.github.io/gaobiao/index.xml">文章 RSS</a></li>
+        </ul>
+    </section>
+</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
